@@ -1,0 +1,29 @@
+h2{
+   color:yellow 
+}
+h3{
+    color:white
+}
+a{
+    color:blue
+}
+table{
+    color:white
+    width:100;
+}
+
+table,th,td{
+    border:1px solid white;
+    border-collapse: collapse;
+    color:white
+}
+
+tr:nth-child(odd) {
+    background-color: green;
+  }
+th{
+    background-color: black;
+}  
+td:nth-child(odd){
+    background-color: red;
+  }
